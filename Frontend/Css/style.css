@@ -1,12 +1,17 @@
 @charset "UTF-8";
 
 :root {
-    --primary-color: #007bff;
+    --primary-color: #1f3341;
     --secondary-color: #6c757d;
-    --success-color: #28a745;
-    --danger-color: #dc3545;
-    --warning-color: #ffc107;
-    --info-color: #17a2b8;
-    --light-color: #f8f9fa;
-    --dark-color: #343a40;
+    --three-color: #3c403d;
+    --four-color: #163039;
+    --five-color: #4a5b6f;
+    
+}
+
+main {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
