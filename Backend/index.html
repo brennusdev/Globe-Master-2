@@ -1,28 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GlobeMaster 2</title>
-    <link rel="stylesheet" href="/Frontend/Css/style.css">
+    <link rel="stylesheet" href="../Frontend/Css/style.css" />
 </head>
 <body>
-    <h1>Seja bem-vindo ao GlobeMaster 2</h1>
-    <p>Aqui você ficará poderá armazenar seus conhecimentos e verificar seu desenvolvimento.</p>
-    <nav>
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="cadastro.html">Cadastro</a></li>
-            <li><a href="meuperfil.html">Meu Perfil</a></li>
-            <li><a href="meusconhecimento.html">Meus Conhecimentos</a></li>
-            <li><a href="meusdesenvolvimento.html">Meu Desenvolvimento</a></li>
-            <li><a href="meusprojetos.html">Meus Projetos</a></li>
-            <li><a href="meuscursos.html">Meus Cursos</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li><a href="ajuda.html">Ajuda</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-        </ul>
-    </nav>
+    <div class="background-grid"></div>
+
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">GM</span>
+                GlobeMaster 2
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Abrir menu">☰</button>
+
+            <ul class="nav-links">
+                <li><a class="nav-link active" href="index.html">Início</a></li>
+                <li><a class="nav-link" href="Login.html">Login</a></li>
+                <li><a class="nav-link" href="cadastro.html">Cadastro</a></li>
+                <li><a class="nav-link" href="MeuPerfil.html">Meu Perfil</a></li>
+                <li><a class="nav-link" href="MeusConhecimento.html">Conhecimentos</a></li>
+                <li><a class="nav-link" href="meusdesenvolvimento.html">Desenvolvimento</a></li>
+                <li><a class="nav-link" href="meusprojetos.html">Projetos</a></li>
+                <li><a class="nav-link" href="meuscursos.html">Cursos</a></li>
+                <li><a class="nav-link" href="contato.html">Contato</a></li>
+                <li><a class="nav-link" href="ajuda.html">Ajuda</a></li>
+                <li><a class="nav-link" href="sobre.html">Sobre</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <div class="hero-content">
+                    <p class="hero-subtitle">Seu portfólio digital</p>
+                    <h1 class="hero-title">Acompanhe sua evolução e seus conhecimentos.</h1>
+                    <p class="hero-description">
+                        A plataforma GlobeMaster 2 foi criada para você registrar aprendizados,
+                        acompanhar desafios, organizar projetos e manter um histórico de crescimento.
+                    </p>
+                    <div class="flex" style="gap: 1rem; flex-wrap: wrap;">
+                        <a class="btn btn-primary" href="Login.html">Entrar</a>
+                        <a class="btn btn-secondary" href="cadastro.html">Criar conta</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Navegação rápida</h2>
+                    <p class="section-description">Acesse rapidamente cada área da sua jornada de desenvolvimento.</p>
+                </div>
+
+                <div class="grid grid-3">
+                    <article class="card">
+                        <div class="card-icon">👤</div>
+                        <h3 class="card-title">Meu Perfil</h3>
+                        <p class="card-description">Atualize seus dados, objetivos e informações profissionais.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">📚</div>
+                        <h3 class="card-title">Meus Conhecimentos</h3>
+                        <p class="card-description">Organize as áreas em que você já se desenvolveu e pretende evoluir.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">📈</div>
+                        <h3 class="card-title">Meu Desenvolvimento</h3>
+                        <p class="card-description">Acompanhe o progresso, metas e marcos importantes do seu aprendizado.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">🧩</div>
+                        <h3 class="card-title">Meus Projetos</h3>
+                        <p class="card-description">Centralize ideias, entregas e projetos que você está construindo.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">🎓</div>
+                        <h3 class="card-title">Meus Cursos</h3>
+                        <p class="card-description">Registre cursos concluídos, em andamento e próximos passos de estudo.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">📩</div>
+                        <h3 class="card-title">Contato</h3>
+                        <p class="card-description">Entre em contato com a equipe e tire dúvidas sobre a plataforma.</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-text">© 2026 GlobeMaster 2</p>
+            <p class="footer-text">Desenvolvimento pessoal, aprendizado e organização</p>
+        </div>
+    </footer>
 </body>
 </html>

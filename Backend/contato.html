@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - GlobeMaster 2</title>
+    <link rel="stylesheet" href="../Frontend/Css/style.css" />
 </head>
 <body>
-    <h1>Contato</h1>
-    <p>Entre em contato conosco preenchendo o formulário abaixo:</p>
+    <div class="background-grid"></div>
+
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">GM</span>
+                GlobeMaster 2
+            </a>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Início</a></li>
+                <li><a class="nav-link active" href="contato.html">Contato</a></li>
+                <li><a class="nav-link" href="ajuda.html">Ajuda</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="section">
+                <div class="card" style="max-width: 720px; margin: 0 auto;">
+                    <div class="section-header">
+                        <p class="hero-subtitle">Fale conosco</p>
+                        <h1 class="section-title">Contato</h1>
+                        <p class="section-description">Envie sua mensagem e nossa equipe responderá o mais rápido possível.</p>
+                    </div>
+
+                    <form>
+                        <div class="form-group">
+                            <label class="form-label" for="nome">Nome</label>
+                            <input class="form-input" type="text" id="nome" placeholder="Seu nome completo" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="email">E-mail</label>
+                            <input class="form-input" type="email" id="email" placeholder="seuemail@exemplo.com" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="mensagem">Mensagem</label>
+                            <textarea class="form-textarea" id="mensagem" placeholder="Descreva sua dúvida ou mensagem"></textarea>
+                        </div>
+
+                        <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>

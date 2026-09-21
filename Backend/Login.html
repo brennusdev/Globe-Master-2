@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login - GlobeMaster 2</title>
+    <link rel="stylesheet" href="../Frontend/Css/style.css" />
 </head>
 <body>
-    <h1>Login</h1>
-    <form action="login.php" method="POST">
-        <label for="username">Nome de usuário:</label>
-        <input type="text" id="username" name="username" required><br><br>
+    <div class="background-grid"></div>
 
         <label for="password">Senha:</label>
         <input type="password" id="password" name="password" required><br><br>
 
-        <input type="submit" value="Entrar">
-        <input type="button" value="Voltar" onclick="window.location.href='index.html'">
-        <input type="reset" value="Limpar">
-    </form>
+    <main>
+        <div class="container">
+            <section class="section">
+                <div class="card" style="max-width: 520px; margin: 0 auto;">
+                    <div class="section-header text-center">
+                        <p class="hero-subtitle">Acesso</p>
+                        <h1 class="section-title mb-2">Login</h1>
+                    </div>
+
+                    <form action="login.php" method="POST">
+                        <div class="form-group">
+                            <label class="form-label" for="username">Nome de usuário</label>
+                            <input class="form-input" type="text" id="username" name="username" placeholder="Digite seu usuário" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="password">Senha</label>
+                            <input class="form-input" type="password" id="password" name="password" placeholder="Digite sua senha" required />
+                        </div>
+
+                        <div class="flex" style="gap: 1rem; flex-wrap: wrap;">
+                            <button class="btn btn-primary" type="submit">Entrar</button>
+                            <button class="btn btn-secondary" type="button" onclick="window.location.href='index.html'">Voltar</button>
+                            <button class="btn btn-secondary" type="reset">Limpar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro - GlobeMaster 2</title>
+    <link rel="stylesheet" href="../Frontend/Css/style.css" />
+</head>
+<body>
+    <div class="background-grid"></div>
+
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">GM</span>
+                GlobeMaster 2
+            </a>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Início</a></li>
+                <li><a class="nav-link active" href="cadastro.html">Cadastro</a></li>
+                <li><a class="nav-link" href="Login.html">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="section">
+                <div class="card" style="max-width: 620px; margin: 0 auto;">
+                    <div class="section-header text-center">
+                        <p class="hero-subtitle">Crie sua conta</p>
+                        <h1 class="section-title mb-2">Cadastro</h1>
+                    </div>
+
+                    <form>
+                        <div class="form-group">
+                            <label class="form-label" for="nomeCompleto">Nome completo</label>
+                            <input class="form-input" type="text" id="nomeCompleto" placeholder="Digite seu nome" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="emailCadastro">E-mail</label>
+                            <input class="form-input" type="email" id="emailCadastro" placeholder="seuemail@exemplo.com" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="usuarioCadastro">Usuário</label>
+                            <input class="form-input" type="text" id="usuarioCadastro" placeholder="Escolha um nome de usuário" />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="senhaCadastro">Senha</label>
+                            <input class="form-input" type="password" id="senhaCadastro" placeholder="Crie uma senha" />
+                        </div>
+
+                        <div class="flex" style="gap: 1rem; flex-wrap: wrap;">
+                            <button class="btn btn-primary" type="submit">Cadastrar</button>
+                            <button class="btn btn-secondary" type="button" onclick="window.location.href='index.html'">Voltar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
