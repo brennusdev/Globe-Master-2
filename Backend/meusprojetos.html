@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Projetos</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meus Projetos - GlobeMaster 2</title>
+    <link rel="stylesheet" href="../Frontend/Css/style.css" />
 </head>
 <body>
-    <h1>Meus Projetos</h1>
-    <p>Aqui você pode visualizar e editar seus projetos.</p>
+    <div class="background-grid"></div>
+
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">GM</span>
+                GlobeMaster 2
+            </a>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Início</a></li>
+                <li><a class="nav-link active" href="meusprojetos.html">Projetos</a></li>
+                <li><a class="nav-link" href="MeusConhecimento.html">Conhecimentos</a></li>
+                <li><a class="nav-link" href="meuscursos.html">Cursos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="section">
+                <div class="section-header">
+                    <p class="hero-subtitle">Portfólio</p>
+                    <h1 class="section-title">Meus Projetos</h1>
+                    <p class="section-description">Registre os projetos em execução, entregues e ideias em desenvolvimento.</p>
+                </div>
+
+                <div class="grid grid-3">
+                    <article class="card">
+                        <h3 class="card-title">Landing Page</h3>
+                        <p class="card-description">Criação de uma interface moderna para apresentação de serviços digitais.</p>
+                    </article>
+                    <article class="card">
+                        <h3 class="card-title">Sistema de Perfil</h3>
+                        <p class="card-description">Painel de dados pessoais com foco em organização e desenvolvimento profissional.</p>
+                    </article>
+                    <article class="card">
+                        <h3 class="card-title">Dashboard de Aprendizado</h3>
+                        <p class="card-description">Acompanhamento de progresso em cursos, projetos e metas de estudo.</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>

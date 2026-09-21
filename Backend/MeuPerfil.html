@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Perfil</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Perfil - GlobeMaster 2</title>
+    <link rel="stylesheet" href="../Frontend/Css/style.css" />
 </head>
 <body>
-    <h1>Meu perfil</h1>
-    <p>Aqui você pode visualizar e editar suas informações pessoais.</p>
-    
+    <div class="background-grid"></div>
+
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">GM</span>
+                GlobeMaster 2
+            </a>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Início</a></li>
+                <li><a class="nav-link active" href="MeuPerfil.html">Meu Perfil</a></li>
+                <li><a class="nav-link" href="MeusConhecimento.html">Conhecimentos</a></li>
+                <li><a class="nav-link" href="meuscursos.html">Cursos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="section">
+                <div class="section-header">
+                    <p class="hero-subtitle">Dados pessoais</p>
+                    <h1 class="section-title">Meu Perfil</h1>
+                </div>
+
+                <div class="card">
+                    <div class="grid grid-2">
+                        <div>
+                            <div class="card-icon">👤</div>
+                            <h3 class="card-title">Informações</h3>
+                            <p class="card-description">Nome: Usuário GlobeMaster</p>
+                            <p class="card-description mt-1">E-mail: usuario@globemaster.com</p>
+                            <p class="card-description mt-1">Cargo: Desenvolvedor em formação</p>
+                        </div>
+                        <div>
+                            <h3 class="card-title">Resumo profissional</h3>
+                            <p class="card-description">Foco em desenvolvimento pessoal, organização do conhecimento e evolução contínua em tecnologia e projetos.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>

@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Cursos</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meus Cursos - GlobeMaster 2</title>
+    <link rel="stylesheet" href="../Frontend/Css/style.css" />
 </head>
 <body>
-    <h1>Meus Cursos</h1>
-    <p>Aqui você pode visualizar e editar seus cursos.</p>
+    <div class="background-grid"></div>
+
+    <header class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">GM</span>
+                GlobeMaster 2
+            </a>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Início</a></li>
+                <li><a class="nav-link active" href="meuscursos.html">Cursos</a></li>
+                <li><a class="nav-link" href="MeuPerfil.html">Perfil</a></li>
+                <li><a class="nav-link" href="meusprojetos.html">Projetos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="section">
+                <div class="section-header">
+                    <p class="hero-subtitle">Aprendizado</p>
+                    <h1 class="section-title">Meus Cursos</h1>
+                    <p class="section-description">Mantenha um registro dos cursos concluídos, em andamento e desejados.</p>
+                </div>
+
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Curso</th>
+                                <th>Categoria</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HTML e CSS</td>
+                                <td>Frontend</td>
+                                <td><span class="badge">Concluído</span></td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript Básico</td>
+                                <td>Frontend</td>
+                                <td><span class="badge">Em andamento</span></td>
+                            </tr>
+                            <tr>
+                                <td>Design Responsivo</td>
+                                <td>UI/UX</td>
+                                <td><span class="badge">Planejado</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
