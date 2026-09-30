@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "nome": "Usuario Teste",
+        "email": "teste@globemaster.com",
+        "username": "usuarioteste",
+        "password_hash": "$2y$10$24eUCKq13Q9cPmTX9nnbzuoTDdOuu5gHzjs2VAUQuLpgzfBzj3ncG",
+        "created_at": "2026-09-30T22:58:44+00:00"
+    }
+]
