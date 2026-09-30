@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro - GlobeMaster 2</title>
     <link rel="stylesheet" href="../Frontend/Css/style.css" />
+    <script defer src="../Frontend/Js/script.js"></script>
 </head>
 <body>
     <div class="background-grid"></div>
@@ -32,7 +33,8 @@
                         <h1 class="section-title mb-2">Cadastro</h1>
                     </div>
 
-                    <form>
+                    <form action="login.php" method="POST">
+                        <input type="hidden" name="action" value="cadastro" />
                         <div class="form-group">
                             <label class="form-label" for="nomeCompleto">Nome completo</label>
                             <input class="form-input" type="text" id="nomeCompleto" placeholder="Digite seu nome" />
